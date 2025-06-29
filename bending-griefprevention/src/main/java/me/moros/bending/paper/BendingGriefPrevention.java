@@ -34,7 +34,6 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class BendingGriefPrevention extends JavaPlugin {
-
   @Override
   public void onLoad() {
     Plugin plugin = Objects.requireNonNull(getServer().getPluginManager().getPlugin("GriefPrevention"));
