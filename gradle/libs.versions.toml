@@ -1,0 +1,20 @@
+[versions]
+minecraft = "1.21.6"
+paper = "1.21.6-R0.1-SNAPSHOT"
+bending = "3.12.0"
+configurate = "4.2.0"
+grief-prevention = "16.18.4"
+towny = "0.101.1.1"
+lwc = "2.4.0"
+bolt = "1.1.66"
+worldguard = "7.0.14"
+
+[libraries]
+paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
+bending = { module = "me.moros:bending-api", version.ref = "bending" }
+configurate = { module = "org.spongepowered:configurate-core", version.ref = "configurate" }
+griefprevention = { module = "com.github.TechFortress:GriefPrevention", version.ref = "grief-prevention" }
+towny = { module = "com.palmergames.bukkit.towny:towny", version.ref = "towny" }
+lwc = { module = "com.griefcraft:lwc", version.ref = "lwc" }
+bolt = { module = "org.popcraft:bolt-bukkit", version.ref = "bolt" }
+worldguard = { module = "com.sk89q.worldguard:worldguard-bukkit", version.ref = "worldguard" }

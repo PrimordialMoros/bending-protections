@@ -1,0 +1,15 @@
+name: BendingWorldGuard
+version: '${version}'
+main: me.moros.bending.paper.BendingWorldGuard
+author: Moros
+description: Bending - WorldGuard integration
+website: https://github.com/PrimordialMoros/bending-protections
+api-version: '${mcVersion}'
+dependencies:
+  server:
+    Bending:
+      load: BEFORE
+      required: true
+    WorldGuard:
+      load: BEFORE
+      required: true

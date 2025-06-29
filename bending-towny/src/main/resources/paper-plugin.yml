@@ -1,0 +1,15 @@
+name: BendingTowny
+version: '${version}'
+main: me.moros.bending.paper.BendingTowny
+author: Moros
+description: Bending - Towny integration
+website: https://github.com/PrimordialMoros/bending-protections
+api-version: '${mcVersion}'
+dependencies:
+  server:
+    Bending:
+      load: BEFORE
+      required: true
+    Towny:
+      load: BEFORE
+      required: true

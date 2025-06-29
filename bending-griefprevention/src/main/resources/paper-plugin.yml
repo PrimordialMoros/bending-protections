@@ -1,0 +1,15 @@
+name: BendingGriefPrevention
+version: '${version}'
+main: me.moros.bending.paper.BendingGriefPrevention
+author: Moros
+description: Bending - GriefPrevention integration
+website: https://github.com/PrimordialMoros/bending-protections
+api-version: '${mcVersion}'
+dependencies:
+  server:
+    Bending:
+      load: BEFORE
+      required: true
+    GriefPrevention:
+      load: BEFORE
+      required: true
